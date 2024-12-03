@@ -1,11 +1,11 @@
-document.addEventListener("keydown", updateKeyCodes);
+document.addEventListener("keydown", processKeyEvent);
 const code = document.getElementById("code");
 const which = document.getElementById("which");
 const key = document.getElementById("key");
 const keyCode = document.getElementById("keyCode");
 const keyPressed = document.getElementById("key-pressed");
 
-function updateKeyCodes(e) {
+function processKeyEvent(e) {
     // console.log(e);
     // if (e.code == "Enter") {
     //     document.body.style.backgroundColor = "lightcoral"; 
