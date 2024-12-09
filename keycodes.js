@@ -1,4 +1,4 @@
-document.addEventListener("keydown", processKeyEvent);
+document.addEventListener("keyup", processKeyEvent);
 const code = document.getElementById("code");
 const which = document.getElementById("which");
 const key = document.getElementById("key");
